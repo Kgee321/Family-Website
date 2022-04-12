@@ -14,7 +14,7 @@
 		<h3 align = "center"><div style = "background-color:#3AD7FF"> Click the Login in button below to enter your name </div></h3>
 		<button onClick = "login()"style="background-color:#B573FF;margin:auto;display:block"><strong>Login</strong></button> 
 		<script>function login() {
-				var name = prompt("What is your name? \n(Do not use an uppercase letters) ")
+				var name = prompt("What is your name? ").toLowerCase();
 				if (name == "toby")
 					window.open("toby.html");
 				if (name == "ashton")
@@ -28,7 +28,7 @@
 				if (name == "katelyn")
 					alert("Hi Katelyn, the most amazing person on earth, Welcome.")
 				else
-					alert("YOU ARE NOT A GEE! PLEASE LEAVE IMMEDIATELY!! \n If you believe that you truely are a Gee, please try type you name again and do not use an uppercase letters") 
+					alert("YOU ARE NOT A GEE! PLEASE LEAVE IMMEDIATELY!! \n If you believe that you truly are a Gee, please try typing your name again and use correct spelling")
 }</script>
 	</div> </body>
 	
